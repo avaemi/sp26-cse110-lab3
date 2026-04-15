@@ -1,3 +1,3 @@
 # Lab 2 - Starter
 Published site:
-https://github.com/avaemi/Lab2_Starter
+https://avaemi.github.io/Lab2_Starter/
