@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting Minutes</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="CSE 110 Lab 2 meeting minutes page">
+    <link rel="alternate" href="https://example.com">
+  </head>
+
+  <body>
+    <header>
+      <h1>Project Brainstorm Meeting</h1>
+      <p><strong>Topic:</strong> First brainstorming session</p>
+      <p><strong>Date:</strong> April 14, 2026</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#attendance">Attendance</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#unfinished">Unfinished Business</a></li>
+        <li><a href="#new">New Business</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#form">Form</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Meeting Overview</h2>
+        <p>This meeting focused on brainstorming ideas for the project and deciding next steps.</p>
+      </section>
+
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <ul>
+          <li>Ava</li>
+          <li>Alex</li>
+          <li>Jordan</li>
+        </ul>
+      </section>
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ol>
+          <li>Discuss project ideas</li>
+          <li>Review possible features</li>
+          <li>Assign tasks</li>
+        </ol>
+      </section>
+
+      <section id="unfinished">
+        <h2>Unfinished Business</h2>
+        <h3>From Last Meeting</h3>
+        <p>No unfinished business since this was the first meeting.</p>
+      </section>
+
+      <section id="new">
+        <h2>New Business</h2>
+        <h3>Ideas Discussed</h3>
+        <p>We discussed adding a <b>timer</b> and a <strong>task tracker</strong>.</p>
+        <p>We also talked about <i>focus mode</i> and <em>notifications</em>.<br>We want to keep the first version simple.</p>
+        <hr>
+      </section>
+
+      <section>
+        <h2>Miscellaneous Comments</h2>
+        <div>
+          One concern was <span>keeping the app simple and easy to use</span>.
+        </div>
+        <p>
+          The team agreed the <strong>first version</strong> should be basic.
+          A <b>minimal design</b> was suggested.
+          We may add <em>reminders</em> later.
+          A possible <i>future feature</i> is progress tracking.
+          <br>
+          More info:
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML Reference</a>
+        </p>
+      </section>
+
+      <section>
+        <h2>Extra Notes</h2>
+        <details>
+          <summary>Click to expand</summary>
+          <p>Focus on core features first before adding extras.</p>
+        </details>
+      </section>
+
+      <section id="media">
+        <h2>Media</h2>
+
+        <h3>Diagram</h3>
+        <img src="assets/diagram.jpg" alt="Meeting diagram" width="300">
+
+        <h3>Audio</h3>
+        <audio controls>
+          <source src="assets/audio.mp3" type="audio/mpeg">
+        </audio>
+
+        <h3>Video</h3>
+        <video controls width="300">
+          <source src="assets/video.mp4" type="video/mp4">
+        </video>
+      </section>
+
+      <section>
+        <h2>Extra Elements</h2>
+        <div>example div</div>
+        <span>example span</span>
+      </section>
+
+      <section id="form">
+        <h2>Feedback Form</h2>
+        <form>
+          <fieldset>
+            <legend>Feedback</legend>
+
+            <p>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" list="names">
+            </p>
+
+            <datalist id="names">
+              <option value="Ava"></option>
+              <option value="Alex"></option>
+              <option value="Jordan"></option>
+            </datalist>
+
+            <p>
+              <label for="date">Next Meeting Date:</label>
+              <input type="date" id="date" name="date">
+            </p>
+
+            <p>Did you attend?</p>
+            <label><input type="radio" name="attend" value="yes"> Yes</label>
+            <label><input type="radio" name="attend" value="no"> No</label>
+
+            <p>Topics you liked:</p>
+            <label><input type="checkbox" name="topic" value="design"> Design</label>
+            <label><input type="checkbox" name="topic" value="features"> Features</label>
+
+            <p>
+              <label for="role">Preferred Role:</label>
+              <select id="role" name="role">
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="comments">Comments:</label><br>
+              <textarea id="comments" name="comments" rows="3" cols="30"></textarea>
+            </p>
+
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>CSE 110 Lab 2</p>
+    </footer>
+  </body>
+</html>
