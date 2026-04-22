@@ -145,3 +145,78 @@ button {
   border-radius: 6px;
   padding: 8px 14px; /* short padding */
 }
+
+/* selector list */
+h3, summary {
+  color: #555;
+}
+
+/* attribute selector */
+a[target="_blank"] {
+  font-weight: 600;
+}
+
+/* descendant combinator */
+nav ul li {
+  list-style: none;
+}
+
+/* child combinator */
+#media > h2 {
+  margin-bottom: 1rem;
+}
+
+/* general sibling combinator */
+h2 ~ p {
+  color: #444;
+}
+
+/* adjacent sibling combinator */
+h2 + h3 {
+  margin-top: 0.25rem;
+}
+
+/* combining two selectors */
+section.highlighted {
+  background-color: #fffbea;
+  border-color: #f1c40f;
+}
+
+/* pseudo-class selector */
+section:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* :has() selector */
+section:has(h3) {
+  background-color: #fafcff;
+}
+
+/* flexbox layout */
+.media-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.media-grid > div {
+  flex: 1 1 200px;
+}
+
+/* grid layout */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+/* nested selectors */
+nav {
+  & ul {
+    & li {
+      margin-right: 10px;
+    }
+  }
+}

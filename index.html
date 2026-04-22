@@ -34,7 +34,7 @@
     </nav>
 
     <main>
-      <section>
+      <section class="highlighted">
         <h2>Meeting Overview</h2>
         <p>This meeting focused on brainstorming ideas for the project and deciding next steps.</p>
       </section>
@@ -83,7 +83,7 @@
           A possible <i>future feature</i> is progress tracking.
           <br>
           More info:
-          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML Reference</a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML Reference</a>
         </p>
       </section>
 
@@ -98,18 +98,28 @@
       <section id="media">
         <h2>Media</h2>
 
-        <h3>Diagram</h3>
-        <img src="assets/diagram.jpg" alt="Meeting diagram" width="300">
+        <div class="media-grid">
 
-        <h3>Audio</h3>
-        <audio controls>
-          <source src="assets/audio.mp3" type="audio/mpeg">
-        </audio>
+          <div>
+            <h3>Diagram</h3>
+            <img src="assets/diagram.jpg" alt="Meeting diagram" width="300">
+          </div>
 
-        <h3>Video</h3>
-        <video controls width="300">
-          <source src="assets/video.mp4" type="video/mp4">
-        </video>
+          <div>
+            <h3>Audio</h3>
+            <audio controls>
+              <source src="assets/audio.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+
+          <div>
+            <h3>Video</h3>
+            <video controls width="300">
+              <source src="assets/video.mp4" type="video/mp4">
+            </video>
+          </div>
+
+        </div>
       </section>
 
       <section>
@@ -121,7 +131,7 @@
       <section id="form">
         <h2>Feedback Form</h2>
         <form>
-          <fieldset>
+          <fieldset class="form-grid">
             <legend>Feedback</legend>
 
             <p>
