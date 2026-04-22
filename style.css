@@ -168,7 +168,7 @@ nav ul li {
 
 /* general sibling combinator */
 h2 ~ p {
-  color: #444;
+  color: hsla(0, 0%, 27%, 1);
 }
 
 /* adjacent sibling combinator */
@@ -218,5 +218,40 @@ nav {
     & li {
       margin-right: 10px;
     }
+  }
+}
+
+/* wider-gamut color */
+h1 {
+  background-color: color-mix(in srgb, #2c3e50 80%, white);
+}
+
+/* absolute unit */
+footer {
+  border-top: 0.03in solid #dce1e7;
+}
+
+/* height */
+header {
+  min-height: 80px;
+}
+
+footer {
+  height: 60px;
+}
+
+/* display none */
+.extra-hidden {
+  display: none;
+}
+
+/* media query */
+@media (max-width: 600px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  nav li {
+    display: block;
+    margin-bottom: 6px;
   }
 }
