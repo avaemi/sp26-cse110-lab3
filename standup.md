@@ -45,6 +45,6 @@
 ---
 
 ## General Notes
-- Standups should be quick (around 10–15 minutes)
+- Standups should be very quick (around 10–15 minutes)
 - Everyone should come prepared with updates
 - Blockers should be mentioned early so the team can help
